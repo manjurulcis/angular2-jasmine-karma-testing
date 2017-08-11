@@ -8,7 +8,6 @@ module.exports = function (config) {
     plugins: [
       require('karma-jasmine'),
       require('karma-phantomjs-launcher'),
-      require('karma-coverage'),
       require('karma-junit-reporter'),
       require('@angular/cli/plugins/karma')
     ],
@@ -36,7 +35,7 @@ module.exports = function (config) {
     logLevel: config.LOG_INFO,
     autoWatch: true,
     singleRun: true,
-    reporters: ['progress', 'coverage', 'dots', 'junit'],
+    reporters: ['progress', 'junit'],
     junitReporter: {
           outputDir: 'karma-results',
           outputFile: 'karma-results.xml'
