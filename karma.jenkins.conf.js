@@ -20,12 +20,6 @@ module.exports = function (config) {
     mime: {
       'text/x-typescript': ['ts','tsx']
     },
-    remapIstanbulReporter: {
-      reports: {
-        html: 'coverage',
-        lcovonly: './coverage/coverage.lcov'
-      }
-    },
     angularCli: {
       config: './angular-cli.json',
       environment: 'dev'
@@ -36,13 +30,13 @@ module.exports = function (config) {
     autoWatch: true,
     singleRun: true,
     concurrency: Infinity,
-    reporters: ['progress', 'coverage', 'dots', 'junit'],
+    reporters: ['progress', 'coverage', 'junit'],
     coverageReporters:{
       type: "cobertura",
       target:"/target/coverage-reports/"
     },
     junitReporter: {
-          outputDir: 'karma-results',
+          outputDir: 'target/surefire-reports/',
           outputFile: 'karma-results.xml'
     },
     browsers: ['PhantomJS']
