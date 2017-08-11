@@ -33,10 +33,10 @@ module.exports = function (config) {
     reporters: ['progress', 'coverage', 'junit'],
     coverageReporters:{
       type: "cobertura",
-      target:"target/coverage-reports/"
+      target:"/target/coverage-reports/"
     },
     junitReporter: {
-          outputDir: 'target/surefire-reports/',
+          outputDir: '/target/surefire-reports/',
           outputFile: 'karma-results.xml'
     },
     browsers: ['PhantomJS']
