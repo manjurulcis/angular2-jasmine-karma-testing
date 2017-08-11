@@ -7,7 +7,7 @@ module.exports = function (config) {
     frameworks: ['jasmine', '@angular/cli'],
     plugins: [
       require('karma-jasmine'),
-      require('karma-chrome-launcher'),
+      require('karma-phantomjs-launcher'),
       require('karma-remap-istanbul'),
       require('@angular/cli/plugins/karma')
     ],
@@ -30,15 +30,16 @@ module.exports = function (config) {
       config: './angular-cli.json',
       environment: 'dev'
     },
-    reporters: ['dots', 'junit'],
-    junitReporter: {
-          outputFile: 'test-results.xml'
-      },
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
-    singleRun: true
+    singleRun: true,
+    reporters: ['progress', 'coverage', 'dots', 'junit'],
+    junitReporter: {
+          outputDir: 'karma-results',
+          outputFile: 'karma-results.xml'
+    },
+    browsers: ['PhantomJS']
   });
 };
