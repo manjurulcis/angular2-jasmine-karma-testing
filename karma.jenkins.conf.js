@@ -33,7 +33,7 @@ module.exports = function (config) {
     reporters: ['progress', 'coverage', 'junit'],
     coverageReporters:{
       type: "cobertura",
-      target:"/target/coverage-reports/"
+      target:"target/coverage-reports/"
     },
     junitReporter: {
           outputDir: 'target/surefire-reports/',
