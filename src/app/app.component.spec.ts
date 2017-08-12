@@ -34,10 +34,10 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1').textContent).toContain('app works!');
   }));
 
-  /*it('should attach message from service to component', async(() => {
+  it('should attach message from service to component', async(() => {
     let fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     expect(fixture.componentInstance.message).toBe('fake service');
-  }));*/
+  }));
 
 });
