@@ -80,8 +80,8 @@
       <file leaf-file-name="app.component.spec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/app.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="415">
+              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -300,7 +300,7 @@
       <updated>1501941824834</updated>
       <workItem from="1501941826070" duration="1996000" />
       <workItem from="1502139224671" duration="4026000" />
-      <workItem from="1502579383416" duration="9000" />
+      <workItem from="1502579383416" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Angular 2 app">
       <created>1501942219739</created>
@@ -428,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502495597783</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Karma config updated 2">
+      <created>1502579396225</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1502579396225</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -464,7 +471,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6031000" />
+    <option name="totallyTimeSpent" value="6162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="775" extended-state="0" />
@@ -766,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="415">
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
